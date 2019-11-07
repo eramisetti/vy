@@ -1,0 +1,297 @@
+<div class="body-box">
+    <div class="services-dropdown">
+        <select (change)="onChange($event.target.value)" [(ngModel)]="selectedService">
+            <option value="">--- Please Select Service ---</option>
+            <option value="Y_A_L">Yoga All levels</option>
+            <option value="Y_F_A_P">Yoga for advanced Practioners</option>
+            <option value="K_Y_C_M_L">Kids Yoga Classes - MiraMar Location</option>
+            <option value="K_Y_C_4_L">Kids Yoga Classes - 4s Ranch Location</option>
+            <option value="P_T">Personal Training</option>
+            <option value="C_E_W">Corporate Employee Wellness</option>
+            <option value="W_T_M_L_D">Workshops to manage Lifestyle Diseases</option>
+            <option value="S_M">Stress Management</option>
+            <option value="ISPE_P">ISPE program / OCIS-PE</option>
+            <option value="Y_I_C">Yoga Instructors Course (YIC)</option>
+        </select>
+    </div>
+
+
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L' || 
+                                  selectedService==='Y_F_A_P' || 
+                                  selectedService==='K_Y_C_M_L' || 
+                                  selectedService==='K_Y_C_4_L'">
+
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container center">
+
+                        <p>We offer <b>FREE </b> first class for those who register
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2qLHZ9QpRD5LlBjDCo4ITWtSPA8b9XB8Sm_7QKfDuydMI_w/viewform"
+                                target="_blank" class="register-btn">Register Here</a>
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+
+                        <table class="yal" border="5">
+                            <tr>
+                                <th>Monday</th>
+                                <th>9:45 A.M - 11:15 A.M</th>
+                            </tr>
+                            <tr>
+                                <th>Tuesday</th>
+                                <th>NO CLASS</th>
+                            </tr>
+                            <tr>
+                                <th>Wednesday</th>
+                                <th>9:45 A.M - 11:15 A.M</th>
+                            </tr>
+                            <tr>
+                                <th>Thursday</th>
+                                <th>7:00 P.M- 8:30 P.M</th>
+                            </tr>
+                            <tr>
+                                <th>Friday</th>
+                                <th>9:45 A.M - 11:15 A.M</th>
+                            </tr>
+                            <tr>
+                                <th>Saturday</th>
+                                <th>8:00 A.M- 9:30 A.M</th>
+                            </tr>
+                            <tr>
+                                <th>Sunday</th>
+                                <th>8:00 A.M- 9:30 A.M</th>
+                            </tr>
+                            <tr>
+                                <th><b>Fees</b></th>
+                                <th>$75 per month - Unlimited Classes <br>
+                                    $100 Any 10 Classes <br>
+                                    $15 Drop ins <br>
+                                    $750 for entire year <br>
+                                    $400 for 6 months <br>
+                                </th>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_F_A_P'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+
+                        <table class="yal" border="5">
+                            <tbody>
+                                <tr>
+                                    <th>Saturday</th>
+                                    <th>6:00 A.M- 7:30 A.M</th>
+                                </tr>
+                                <tr>
+                                    <th>Sunday</th>
+                                    <th>6:00 A.M- 7:30 A.M</th>
+                                </tr>
+                                <tr>
+                                    <th>Fees</th>
+                                    <th>$75 per month - Unlimited Classes <br>
+                                        $100 Any 10 Classes <br>
+                                        $15 Drop ins <br>
+                                        $750 for entire year <br>
+                                        $400 for 6 months <br>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>More Details</th>
+                                    <th>
+                                        <a href="./../../assets/pdfs/Advanced_yoga.pdf" target="_blank"><u>Click
+                                                Here</u>
+                                        </a>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='K_Y_C_M_L'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <table class="yal" border="5">
+                            <tbody>
+                                <tr>
+                                    <th>Sunday</th>
+                                    <th>9:45 A.M- 11:00 A.M</th>
+                                </tr>
+                                <tr>
+                                    <th>Fees</th>
+                                    <th>
+                                        $50 per month <br>
+                                        $15 Drop ins <br>
+                                    </th>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='K_Y_C_4_L'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                            <table class="yal" border="5">
+                                <tbody><tr>
+                                    <th>Thursday</th>
+                                    <th>3:00 P.M - 4:00 P.M</th>
+                                </tr>
+                                <tr>
+                                    <th>Fees</th>
+                                    <th>
+                                        $50 per month <br>
+                                        $15 Drop ins <br>
+                                    </th>
+                                </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='P_T'">
+            <div class="column  mt4 card-single">
+                <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                    <div class="card">
+                        <div class="container">
+                           <p>
+                                Your yoga practice is most effective when it’s designed for your personal needs by a highly trained and experienced yoga professional.
+                                Our lead trainer with his wealth of experience, knowledge and skills tempered with an attitude of compassion can design a perfect session for your body, mind and soul.
+                                Healing takes place from with in. We can design a yoga program to inspire, enthuse and encourage you to take charge of your body and mind adopt a healthy lifestyle.
+                                Private yoga sessions are great for beginners, those with specific concerns or anyone who prefers individualized or family instruction.
+                                Please contact us for more details.
+                           </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='C_E_W'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <p>Successful organisations know that a healthy and happy employee is also a highly productive
+                            employee.
+                            Yoga and Mindfulness make huge difference and positively impact on the physical, mental and
+                            social well being of the employees.
+                            It transforms the organisational environment into a vibrant, harmonious, enthusiastic and
+                            highly productive company.
+                            We at Vivekananda Yoga have a rich experience in employee wellness programs.
+                            1. To employee wellness programs you can Host Yoga Classes or Work shops at your work place.
+                            We will be glad to design and conduct them at your workplace.
+                            2. Offer Vivekananda Yoga Classes to your employees at a discount. We will be glad to work
+                            with you on designing a program.
+                            Please contact us for more details.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='W_T_M_L_D'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <p>Prevention, management and cure of psychosomatic diseases like type 2 diabetes, hypertension,
+                            arthritis, digestive disorders etc. Workshops in these areas are offered on regular basis.
+                            Check the home page for Schedule.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='S_M'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <p>Stress Management workshops are offered on a regular basis Check the home page for Schedule.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='ISPE_P'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <p>ISPE program as approved by San Dieguito School District for middle and high school students
+                            OCIS-PE program as approved by Poway Unified School District.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_I_C'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <p>200 Hrs Yoga Instructors Course offered on a regular basis. We are RYS 200 and registered
+                            with Yoga Alliance. Please contact us for more details.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="paypalBlock" *ngIf="selectedService==='Y_A_L' 
+    || selectedService==='Y_F_A_P'
+    || selectedService==='K_Y_C_M_L'
+    || selectedService==='K_Y_C_4_L'
+    ">
+        <ngx-paypal [config]="payPalConfig"></ngx-paypal>
+    </div>
+
+
+
+</div>

@@ -1,0 +1,1075 @@
+/*----------------------------------------------------------------------------------------------*/
+/*                                                                                              */
+/*	                This version is:   medimpact-jqwidgets.css        medimpact-jqwidgets.css  v1.2.0               */
+/*                                                                                              */
+/*	Do not change this file manually... These reflect MedImpact approved styles                 */
+/*                                                                                              */
+/*  If changes are required, rename and modify medimpact-xxx.css OR                             */
+/*                                                                                              */
+/*  Engage the UI/UX team to suggest global changes for all MedImpact applications              */
+/*                                                                                              */
+/*----------------------------------------------------------------------------------------------*/
+
+body {
+    background: #f7f8f9;
+    color:#4D4D4F;
+}
+
+body, p, .navbar, .brand,
+.btn-simple, .alert, a,
+.td-name, td, button.close {
+    font-family: Helvetica, Arial, Sans-serf;
+}
+
+a {
+    color:#007DC5;
+}
+
+.red {
+    color:red;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    padding: 0;
+    width:100%;
+    margin:0;
+}
+
+/* Hidden but shown for screen readers */
+.visually-hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;}
+
+.serif {
+    font-family:  Roboto Slab Light, Georgia, Arial, serf;
+}
+
+.intro-text {
+    font-family:  Helvetica, Arial, Sans-serif;
+    Line-Height: 26px;
+    font-size: 1.125rem;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dropdown-toggle::after {
+    content: "\f107";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    vertical-align: -0.045em;
+    border:none;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, thead {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 2.125rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bg-primary {
+    background-color:#005387 !important;
+}
+.bg-secondary {
+    background-color:#0F7DC2 !important;
+}
+.bg-dark {
+    background-color:#4D4D4F !important;
+}
+/* set to Roys panel bg color */
+.bg-medium {
+    background-color:#6A6A73 !important;
+}
+.bg-light {
+    background-color:#F5F6F7 !important;
+}
+
+
+.text10 {
+    font-size:.625em;
+}
+
+.text12 {
+    font-size:.750em;
+}
+
+.text14 {
+    font-size:.875em;
+}
+
+.text16 {
+    font-size:1em;
+}
+
+.text18 {
+    font-size:1.125em;
+}
+
+.text20 {
+    font-size:1.250em;
+}
+
+.text22 {
+    font-size: 1.375em;
+}
+
+.text30 {
+    font-size:1.875em;
+}
+
+.text32 {
+    font-size:2em;
+}
+
+.text-white {
+    color:#fff;
+}
+
+.list-no-style {
+    list-style:none;
+}
+
+.text-primary {
+    color:#005387 !important;
+}
+.text-secondary {
+    color:#0F7DC2 !important;
+}
+.text-dark {
+    color:#4D4D4F !important;
+}
+/* set to Roys panel bg color */
+.text-medium {
+    color:#6A6A73 !important;
+}
+.text-light {
+    color:#F5F6F7 !important;
+}
+
+.link-secondary {
+    color:#33CDF5;
+}
+
+.link-disabled {
+    color: #6D6E71;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.link-disabled:hover {
+    color: #262626;
+}
+
+/* ==================================================================================================
+   Navigation overrides
+   ================================================================================================== */
+
+.navbar {
+    font-size:1.125em;
+    padding:0;
+}
+
+.navbar-nav a.nav-link, .navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    padding:15px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color:#fff;
+}
+
+.navbar-nav li.nav-item.dropdown:hover > a {
+    background: #007DC5;
+}
+
+
+.navbar-nav a.nav-link.active {
+    background: #33CDF5;
+}
+
+.navbar-nav a.nav-link:hover {
+    background: #007DC5;
+}
+
+.nav-item .dropdown-menu {
+    top:90%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right:1.4rem;
+    padding-left:1rem;
+}
+
+/* makes dropdown work on hover */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu::before {
+    content: "\f0d8";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top:-15px;
+    left:16px;
+    color:#fff;
+}
+
+/* ==================================================================================================
+   Arrow for top nav and popup breadcrumbs
+   ================================================================================================== */
+
+.arrow_box {
+    position: relative;
+    background: #005387;
+    border-bottom:none;
+    width: 150px;
+    height:42px;
+    color:#fff;
+    padding:5px 15px;
+    font-weight:bold;
+    font-size: 1.20em;
+    float: left;
+}
+
+.arrow_box::after, .arrow_box::before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box::after {
+    border-color: rgba(0, 83, 135, 0);
+    border-left-color: #005387;
+    border-width: 16px;
+    margin-top: -16px;
+}
+
+.arrow_box::before {
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #fff;
+    border-width: 17px;
+    margin-top: -17px;
+}
+
+/* ==================================================================================================
+   Makes left nav function similarly to top nav
+   ================================================================================================== */
+
+.nav-list li a {
+    color:inherit;
+    height:100%;
+    width:100%;
+    display:block;
+}
+
+.nav-list li a:hover {
+    color:inherit;
+    text-decoration: none;
+}
+
+.nav-list li.active {
+    background:#005387;
+}
+
+.nav-list li:hover {
+    color:inherit;
+    cursor: pointer;
+    background:#007DC5;
+    color:#fff;
+}
+
+
+
+.list-group-item, .card-header {
+    padding: 0.5rem 0.93rem;
+}
+
+.side-nav-header {
+    font-size: 1rem !important;
+}
+
+/* ==========================================================================
+   content area tabs styles
+   ========================================================================== */
+
+.nav-item {
+    margin-right: 5px;
+}
+
+.nav-tabs {
+    border-bottom: 3px solid #0F7DC2;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+    background: #91b1dd;
+    padding: .4rem 1.5rem;
+    border-color: #91b1dd #91b1dd #0F7DC2;
+    border-top-left-radius: .35rem;
+    border-top-right-radius: .35rem;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #0F7DC2 #0F7DC2 #0F7DC2;
+    padding: .4rem 1.5rem;
+}
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background: #0F7DC2;
+    border-color: #0F7DC2 #0F7DC2 #0F7DC2;
+}
+
+.nav-tabs .nav-link.disabled {
+    background-color: #868e96 !important;
+    color: white !important;
+}
+
+.nav-tabs .nav-link.disabled:hover {
+    background-color: #868e96 !important;
+    color: white !important;
+}
+
+.tab-card  {
+    border-radius: 0 0 .25rem .25rem;
+
+}
+
+/* ==========================================================================
+   Main styles: Site specific, Header/footer, Navigation, buttons, utility styles
+   ========================================================================== */
+
+#header {
+    background:#006972;
+    width:100%;
+    min-height:130px;
+    border-bottom:5px solid #f9f9f9;
+    box-shadow: inset 0px -3px 0px 0px #0c6ba5;
+    position: relative;
+    z-index:10;
+}
+
+.header-logo-text {
+    position: relative;
+    top:26px;
+    left:10px;
+    color:#fff;
+    font-size: 39px;
+}
+
+.header-logo {
+    margin: 15px 0 0;
+}
+
+.top-menu {
+    position: relative;
+    background: #005387;
+    width:100%;
+    z-index: 1;
+}
+
+.column-chooser li {
+    display:inline-block;
+    margin:0 30px 15px 0;
+}
+
+.user-options {
+    padding:15px;
+}
+
+.top-login {
+    padding: 15px 15px 0;
+}
+
+.top-login a {
+    position: relative;
+    color:#fff;
+    margin-right:15px;
+    text-decoration:none;
+}
+
+.top-login li {
+    float:right;
+}
+
+.logout-link {
+    border-left:1px solid #fff;
+}
+
+.signin-icons {
+    width: 50px;
+    margin-right: 2px;
+    font-size:40px;
+}
+
+.icon-text {
+    position: relative;
+    top:-10px;
+}
+
+.alert-notification {
+    background:orange;
+    padding: 0px 6px;
+    border-radius:10px;
+    width:20px;
+    height:20px;
+    color:#fff;
+    position: absolute;
+    top:-17px;
+    left:-3px;
+}
+
+.hidden-alerts .alert-notification {
+    position: relative;
+    top:0;
+    left:10px;
+    float:right;
+    padding: 0 4px;
+}
+
+.alert-icon {
+    background:red;
+    padding: 4px 5px;
+    border-radius:15px;
+    width:30px;
+    height:30px;
+    color:#fff;
+    margin-right:15px;
+    float:left;
+}
+
+.sign-in-middle input {
+    border-radius: 2px;
+    text-indent: 30px;
+    border: 1px solid #ccc;
+}
+
+
+/* ==================================================================================================
+   Sidebar slideout on B 2 B applications.  This is the notes section that appears on applications
+   ================================================================================================== */
+
+#task-notes-slideout {
+    position: fixed;
+    right:-1000px;
+    bottom:10px;
+    background:#005387;
+    width:1000px;
+    color:#fff;
+    z-index:100;
+    padding:10px 25px;
+    border-radius: 4px 0 0 4px;
+}
+
+.show-notes {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    background:#005387;
+    color:#fff;
+    padding:10px 140px;
+    position: fixed;
+    right:-185px;
+    bottom:250px;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-radius: 4px 4px  0 0;
+    z-index: 101;
+    cursor: pointer;
+    letter-spacing:2px;
+}
+
+/* ==================================================================================================
+   Adds cool shadow to all card boxes
+   ================================================================================================== */
+
+.card {
+    -webkit-box-shadow: 0 8px 6px -6px #ccc;
+    -moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+    border: 1px solid #cfcccf;
+}
+.expander {  /*  used for section headers with a expandable header */
+    padding-left: 1.25rem;
+}
+.card-header {
+    background-color: #e6e5e6;
+    border-bottom: 1px solid #cfcccf;
+}
+
+a .card-header.expander,
+a[data-toggle="collapse"]  {
+    color:initial;
+    text-decoration:none;
+    text-indent:5px;
+}
+
+
+.expandable {
+    cursor: pointer;
+}
+
+.expandable::before {
+    content: "\f068";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+
+}
+
+.expandable.collapsed::before {
+    content: "\f067";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+}
+
+.card .expandable::before {
+    content: "\f068";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top:7px;
+    right:15px;
+}
+
+.card .expandable.collapsed::before {
+    content: "\f067";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top:7px;
+    right:15px;
+}
+
+.alert-drop {
+    display: none;
+    position: fixed;
+    top:0;
+    left:25%;
+    right:25%;
+    z-index:99999;
+    border-radius: 0 0 4px 4px;
+}
+
+/* ==================================================================================================
+   Table overrides to allow full width tables that overflow on the y axis
+   ================================================================================================== */
+
+.table-container {
+    overflow-y: auto;
+}
+
+table.table-overflow {
+    width:max-content !important;
+    max-width: unset !important;
+    width: -moz-max-content !important;  /* firefox specific */
+}
+
+
+/* ==================================================================================================
+   Restyles some Buttons to match branding
+   ================================================================================================== */
+
+.btn {
+    border-radius: 3px;
+    padding: .25rem .75rem;
+}
+
+.btn-primary {
+    color:#fff;
+    background:#007DC5;
+    border:1px solid #007DC5;
+    box-shadow: 0px 3px 8px rgba(0, 125, 197, 0.35);
+}
+
+.btn-primary:hover {
+    color:#fff;
+    background:#005387;
+    border:1px solid #005387;
+    box-shadow: 0px 5px 8px rgba(0, 125, 197, 0.40);
+}
+
+.btn-secondary {
+    color:#007DC5;
+    background:#fff;
+    border:1px solid #007DC5;
+    box-shadow: 0px 3px 8px rgba(0, 125, 197, 0.35);
+}
+
+.btn-secondary:hover {
+    background-color: #F1F2F2;
+    color:#007DC5;
+    border:1px solid #007DC5;
+    box-shadow: 0px 5px 8px rgba(0, 125, 197, 0.40);
+}
+
+.btn-tertiary {
+    color:#000;
+    background:#fff;
+    border:1px solid #000;
+    box-shadow: 0px 3px 8px rgba(204, 204, 204, 0.9);
+}
+
+.btn-tertiary:hover {
+    background-color: #F1F2F2;
+    color:#000;
+    border:1px solid #000;
+    box-shadow: 0px 5px 8px rgba(204, 204, 204, 0.9);
+}
+
+.btn-success {
+    color:#fff;
+    background:#28a745;
+    border:1px solid #28a745;
+    box-shadow: 0px 3px 8px rgba(40, 167, 69, 0.35);
+}
+
+.btn-success:hover {
+    color:#fff;
+    background:#247737;
+    border:1px solid #247737;
+    box-shadow: 0px 5px 8px rgba(40, 167, 69, 0.40);
+}
+
+.btn-info {
+    color:#fff;
+    background:#17a2b8;
+    border:1px solid #17a2b8;
+    box-shadow: 0px 3px 8px rgba(23, 162, 184, .35);
+}
+
+.btn-info:hover {
+    color:#fff;
+    background:#147685;
+    border:1px solid #147685;
+    box-shadow: 0px 5px 8px rgba(23, 162, 184, .40);
+}
+
+.btn-warning {
+    color:#fff;
+    background:#F89420;
+    border:1px solid #F89420;
+    box-shadow: 0px 3px 8px rgba(248, 148, 32, 0.35);
+}
+
+.btn-warning:hover {
+    color:#fff;
+    background:#CE741B;
+    border:1px solid #CE741B;
+    box-shadow: 0px 5px 8px rgba(248, 148, 32, 0.40);
+}
+
+.btn-danger {
+    color:#fff;
+    background:#EF4123;
+    border:1px solid #EF4123;
+    box-shadow: 0px 3px 8px rgba(239, 65, 35, 0.35);
+}
+
+.btn-danger:hover {
+    color:#fff;
+    background:#ce3420;
+    border:1px solid #ce3420;
+    box-shadow: 0px 5px 8px rgba(239, 65, 35, 0.40);
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+    color:#fff;
+}
+
+.disabled:hover {
+    background-color: #6a6a73;
+    border-color: #6a6a73;
+}
+
+.btn-primary.disabled {
+    background-color: #6a6a73;
+    border-color: #6a6a73;
+}
+.btn-primary.disabled:hover {
+    background-color: #6a6a73 !important;
+    border-color: #6a6a73;
+}
+
+/* ==================================================================================================
+   form element styles
+   ================================================================================================== */
+
+.form-control {
+    padding: .25rem .75rem;
+    height: initial;
+}
+
+.form-control-plaintext {
+    color:#222;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(1.9rem);
+}
+
+.form-group {
+    margin-bottom: .25rem;
+}
+
+.form-label, .col-form-label {
+    text-align: right;
+    padding-right: 0;
+}
+
+.form-input {
+    padding-left: 10px;
+}
+
+.form-group input.has-error,
+.form-group textarea.has-error,
+.form-group select.has-error{
+    border:1px solid red;
+}
+.required-color {
+    color: 	#EF4123;
+    padding-left: 2px;
+}
+.filter-bar {
+    background:#f5f6f7;
+    border-top:1px solid #ccc;
+    padding:10px;
+    width: 100%;
+}
+
+.filter-bar select {
+    width: 60%;
+    margin-left:10px;
+}
+/* ==================================================================================================
+   Footer styles
+   ================================================================================================== */
+
+.footer {
+    color: #fff;
+    background: #444;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.footer small, .footer a, .footer hr {
+    color:#acacac;
+    font-size:.85em;
+}
+
+ul.social-icons-footer {
+    list-style:none;
+    width: 220px;
+    text-align:center;
+    margin:0 auto;
+}
+
+ul.social-icons-footer li {
+    float:left;
+}
+
+ul.social-icons-footer li a {
+    margin-right:25px;
+    width: 20px;
+    height: 20px;
+    opacity: .8;
+    display:block;
+}
+
+.social-icons-footer a:hover {
+    opacity: 1
+}
+
+.social-icons-footer a {
+    color:#fff;
+    font-size:1.2em;
+    opacity:.8;
+}
+
+.social-icons-footer a:hover {
+    opacity:1;
+}
+
+.footer hr {
+    border-color: #707072;
+}
+
+.footer-links {
+    margin:0 auto;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin-right:12px;
+    color:#DDDDDD;
+}
+
+.footer-links a:hover {
+    color:#fff;
+}
+
+.footer-links a:last-child {
+    margin-right: 0;
+}
+
+
+/* ==================================================================================================
+   Useful utility classes, hide stuff, zero padding/margins, spacers to add space between elements
+   ================================================================================================= */
+
+.hidden {
+    display: none;
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+.no-padding-top {
+    paddingn-top: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+.no-margin-left {
+    margin-left: 0 !important;
+}
+
+.space-left {
+    margin-left: 10px;
+}
+
+.space-right {
+    margin-right: 10px;
+}
+
+.spacer5 {
+    height: 5px;
+    clear: both;
+}
+
+.spacer10 {
+    height: 10px;
+    clear: both;
+}
+
+.spacer15 {
+    height: 15px;
+    clear: both;
+}
+
+.spacer20 {
+    height: 20px;
+    clear: both;
+}
+
+.spacer25 {
+    height: 25px;
+    clear: both;
+}
+
+.spacer30 {
+    height: 30px;
+    clear: both;
+}
+
+.spacer40 {
+    height: 40px;
+    clear: both;
+}
+
+.spacer50 {
+    height: 50px;
+    clear: both;
+}
+
+.spacer100 {
+    height: 100px;
+    clear: both;
+}
+
+.tooltip-inner {
+    background-color: #4CA4D7;
+}
+.tooltip.bs-tooltip-right .arrow::before {
+    border-right-color: #4CA4D7 !important;
+}
+.tooltip.bs-tooltip-left .arrow::before {
+    border-left-color: #4CA4D7 !important;
+}
+.tooltip.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #4CA4D7 !important;
+}
+.tooltip.bs-tooltip-top .arrow::before {
+    border-top-color: #4CA4D7 !important;
+}
+.fade {
+    opacity: 1 !important;
+}
+
+.form-group {
+    margin-bottom: 0.85rem;
+}
+
+.form-group .error-tooltip, .form-group .error-span {
+    display:none;
+}
+
+.form-group .error-tooltip.has-error {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    display:block;
+}
+
+.form-group select.error-tooltip.has-error {
+    right: 30px;
+}
+
+.form-group .error-span.has-error {
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    color: red;
+    display:block;
+    font-size:12px;
+}
+
+.form-check.form-check-inline.has-error {
+    color:red;
+}
+
+/* ==================================================================================================
+   Helpful mobile display styles
+   ================================================================================================== */
+
+@media (max-width: 1170px) {
+    /* Media query for smaller than standard PC monitors 1280x768 and phones ish */
+    img, button {
+        max-width: 100%;
+    }
+
+    /* Hide page items on mobile devices only */
+    .mobile-hidden {
+        display: none;
+    }
+
+    /* Eliminate padding on mobile devices only */
+    .no-padding-mobile {
+        padding: 0 !important;
+    }
+
+    /* Removes carat on dropdown navs on mobile nav menu */
+    .dropdown-menu::before {
+        content: none;
+    }
+}
+
+/* ==================================================================================================
+   Tablet styles
+   ================================================================================================== */
+
+/* change nav breakpoint for ipads to "mobile" layout */
+@media (max-width: 1200px) {
+
+
+}

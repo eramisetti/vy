@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+/* .ui-accordion .ui-accordion-toggle-icon, .ui-accordion .ui-accordion-header-text {
+    margin-right: 96%
+}
+
+body .ui-accordion .ui-accordion-header a .ui-accordion-toggle-icon {
+    float : left
+} */
+
+.cyan.darken-3 {
+    /* background-color: #00838f; */
+    background-color: black;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.white-text {
+    color: #fff!important;
+}
+
+.footer-copyright {
+    overflow: hidden;
+    color: rgba(255,255,255,.6);
+    background-color: rgba(0,0,0,.2);
+}
