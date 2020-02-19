@@ -408,7 +408,7 @@ h1 a:hover {
    ========================================================================== */
 
 #header {
-    background:#006972;
+    background:rgb(219, 128, 42);
     width:100%;
     min-height:130px;
     border-bottom:5px solid #f9f9f9;

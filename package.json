@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "startapp": "ng serve",
+    "start": "ng serve",
     "build": "ng build --aot",
     "postinstall": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "start": "node server.js"
+    "e2e": "ng e2e"
   },
   "engines": {
     "node": "12.3.1",

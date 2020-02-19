@@ -7,6 +7,9 @@
 @import "assets/css/common.css";
 @import "assets/css/common-viv.css";
 
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
 .main-div {
     margin: 3% 1% 2% 1%;
 }
@@ -100,7 +103,7 @@
 }
 
 .services-dropdown {
-    margin: 2% 2% 2% 40%;
+    margin: 2% 2% 2% 4%;
 }
 
 .W-t-M-L-D {
@@ -204,4 +207,22 @@
     width: 45%;
     height: auto;
     margin: auto;
+    margin-bottom: 2%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: rgb(219, 128, 42) !important;
+}
+
+.safron-color {
+    background-color: rgb(219, 128, 42);
+}
+
+.paypal_block {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.amount-select {
+    margin-bottom: 2%;
 }

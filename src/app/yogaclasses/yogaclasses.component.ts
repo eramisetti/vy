@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { IPayPalConfig } from 'ngx-paypal';
-import {ICreateOrderRequest } from 'ngx-paypal';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+// import dayGridPlugin from '@fullcalendar/daygrid';
+// import timeGridPlugin from '@fullcalendar/timegrid';
+// import interactionPlugin from '@fullcalendar/interaction';
+// import { Calendar } from '@fullcalendar/core';
 
 @Component({
   selector: 'app-yogaclasses',
@@ -11,73 +13,46 @@ export class YogaclassesComponent implements OnInit {
 
   selectedService:string = '';
   yes:boolean = false;
-  public payPalConfig ? : IPayPalConfig;
-
+  events: any[];
+  options: any;
   constructor() { }
 
   ngOnInit() {
 
-   this.initConfig();
+
+
+
+    // Working but not needed for this website.
+    // document.addEventListener('DOMContentLoaded', function() {
+    //   let calendarEl: HTMLElement = document.getElementById('calendar')!;
+    
+    //   let calendar = new Calendar(calendarEl, {
+    //     plugins: [ dayGridPlugin, interactionPlugin],
+    //     events:  [
+    //       {
+    //           "title": "8:00 AM to 9:30 Am",
+    //           "start": "2020-01-01T08:00:00",
+    //           "end": "2020-01-01T09:30:00"
+    //       }],
+    //     eventClick: function(event) {
+    //       console.log(event.event._def.title);
+    //      alert(event.event._def.title);
+    //     },
+    //     dateClick: function(info) {
+    //       alert('Clicked on: ' + info.dateStr);
+    //       console.log(info);
+    //     }
+    //     // options here
+    //   });
+    
+    //   calendar.render();
+      
+    // });
+
+
+
+
   }
 
-  onChange(selectedService) {
-    this.selectedService = selectedService;
-    console.log(selectedService);
-
-  }
-
-  private initConfig(): void {
-    this.payPalConfig = {
-        clientId: 'sb',
-        createOrderOnClient: (data) => < ICreateOrderRequest > {
-            intent: 'CAPTURE',
-            purchase_units: [{
-                amount: {
-                    value: '9.99',
-                    breakdown: {
-                        item_total: {
-                            value: '9.99'
-                        }
-                    }
-                },
-                items: [{
-                    name: 'Enterprise Subscription',
-                    quantity: '1',
-                    category: 'DIGITAL_GOODS',
-                    unit_amount: {
-                        value: '9.99',
-                    },
-                }]
-            }]
-        },
-        advanced: {
-            commit: 'true'
-        },
-        style: {
-            label: 'paypal',
-            layout: 'vertical'
-        },
-        onApprove: (data, actions) => {
-            console.log('onApprove - transaction was approved, but not authorized', data, actions);
-            actions.order.get().then(details => {
-                console.log('onApprove - you can get full order details inside onApprove: ', details);
-            });
-
-        },
-        onClientAuthorization: (data) => {
-            console.log('onClientAuthorization - you should probably inform your server about completed transaction at this point', data);
-        },
-        onCancel: (data, actions) => {
-            console.log('OnCancel', data, actions);
-
-        },
-        onError: err => {
-            console.log('OnError', err);
-        },
-        onClick: (data, actions) => {
-            console.log('onClick', data, actions);
-        }
-    };
-}
 
 }

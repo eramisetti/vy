@@ -1,0 +1,18 @@
+<div class="paypal_block">
+
+
+    <select class="form-control amount-select" 
+    [(ngModel)]="product.price" 
+    placeholder="Select from Dropdown">
+            <option value="0" disabled selected>--- Please Select Amount ---</option>
+            <option value="15">$15 Drop ins</option>
+            <option value="50">$50 per Month for kids unlimited</option>
+            <option value="75">$75 per Month for Adult unlimited</option>
+            <option value="100">$100 for Any 10 classes</option>
+            <option value="400">$400 per 6 months for Adults</option>
+            <option value="750">$750 per an year for Adults</option>
+        </select>
+     
+     <div #paypal></div>
+
+    </div>
