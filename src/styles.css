@@ -7,8 +7,6 @@
 @import "assets/css/common.css";
 @import "assets/css/common-viv.css";
 
-@import '~@fullcalendar/core/main.css';
-@import '~@fullcalendar/daygrid/main.css';
 
 .main-div {
     margin: 3% 1% 2% 1%;

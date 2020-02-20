@@ -8,7 +8,6 @@ import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { NgxPayPalModule } from 'ngx-paypal';
 import { PaymeComponent} from './paypal.component';
-import {FullCalendarModule} from '@fullcalendar/angular';
 
 @NgModule({
   imports: [
@@ -18,8 +17,7 @@ import {FullCalendarModule} from '@fullcalendar/angular';
     HttpClientModule,
     BrowserAnimationsModule,
     YogaclassesRoutesModule,
-    NgxPayPalModule,
-    FullCalendarModule
+    NgxPayPalModule
   ],
   declarations: [YogaclassesComponent, PaymeComponent],
   exports: [
