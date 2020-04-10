@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+
+  onLinkClick() {
+    console.log("yes");
+    document.getElementById("collapseBtn").click();
+  }
 }

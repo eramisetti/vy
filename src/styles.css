@@ -224,3 +224,8 @@
 .amount-select {
     margin-bottom: 2%;
 }
+
+.width100 {
+    width: 100%;
+    text-align: left !important;
+}

@@ -1,17 +1,54 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<div class="navbar-background">
-<nav class="nav nav-pills nav-fill">
-  <a class="nav-item nav-link active" data-toggle="tab" href="#Home">Home</a>
-  <a class="nav-item nav-link" data-toggle="tab" href="#Yoga_Classes">Yoga Classes</a>
-  <a class="nav-item nav-link" data-toggle="tab" href="#Kids_Classes">Kids Classes</a>
-  <a class="nav-item nav-link" data-toggle="tab" href="#Yoga_Instructors_Course">Yoga Instructors Course</a>
-  <a class="nav-item nav-link" data-toggle="tab" href="#Instructors">Instructors</a>
-  <a class="nav-item nav-link" data-toggle="tab" href="#Gallery">Gallery</a>
-  <a class="nav-item nav-link" data-toggle="tab" href="#AboutUs">AboutUs</a>
+
+
+<!--Navbar-->
+<nav class="navbar navbar-light light-blue lighten-4">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button id="collapseBtn" class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <div class="navbar-background">
+        <nav class="nav nav-pills nav-fill">
+          <a class="width100 nav-item nav-link active" data-toggle="tab" href="#Home" (click)="onLinkClick()">Home</a>
+          <a class="width100 nav-item nav-link" data-toggle="tab" href="#Yoga_Classes" (click)="onLinkClick()">Yoga Classes</a>
+          <a class="width100 nav-item nav-link" data-toggle="tab" href="#Kids_Classes" (click)="onLinkClick()">Kids Classes</a>
+          <a class="width100 nav-item nav-link" data-toggle="tab" href="#Yoga_Instructors_Course" (click)="onLinkClick()">Yoga Instructors Course</a>
+          <a class="width100 nav-item nav-link" data-toggle="tab" href="#Instructors" (click)="onLinkClick()">Instructors</a>
+          <a class="width100 nav-item nav-link" data-toggle="tab" href="#Gallery" (click)="onLinkClick()">Gallery</a>
+          <a class="width100 nav-item nav-link" data-toggle="tab" href="#AboutUs" (click)="onLinkClick()">AboutUs</a>
+        
+        </nav>
+        </div>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
 
 </nav>
-</div>
+<!--/.Navbar-->
+
+
+
+ <!-- Update if there is any  news here.-->
+ <!-- <div class="what-we-do-block card">
+  <div class="tile-title"> COVID-19</div>
+  <div class="card-body">
+  </div>
+ </div> -->
+
+
 
 <div class=tab-content>
   <div class="tab-pane active" id=Home><app-home></app-home></div>
