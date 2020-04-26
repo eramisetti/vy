@@ -1,3 +1,8 @@
+
+1) any  images upload to two folder . img foler of application and pleskadmin img folder
+2) build with buildprod.
+
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
