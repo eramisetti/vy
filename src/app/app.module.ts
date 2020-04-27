@@ -10,15 +10,23 @@ import { InstructorcourseModule } from './instructorcourse/instructorcourse.modu
 import { InstructorModule } from './instructors/instructor.module';
 import { GalleryModule } from './gallery/gallery.module';
 import { AboutusModule } from './aboutus/aboutus.module';
+import { DirectLinkYicComponent } from './direct-link-yic/direct-link-yic.component';
+import { HomeRoutesModule } from './home/home.routing';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
    declarations: [
       AppComponent,
+      DirectLinkYicComponent,
    ],
    imports: [
+      CommonModule,
+      RouterModule,
       BrowserModule,
       AppRoutingModule,
+      HomeRoutesModule,
       HomeModule,
       YogaclassesModule,
       KidsclassesModule,
