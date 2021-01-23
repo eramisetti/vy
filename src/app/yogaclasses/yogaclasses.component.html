@@ -3,8 +3,8 @@
         <select  [(ngModel)]="selectedService">
             <option value="">--- Please Select Yoga Class ---</option>
             <option value="Y_A_L">All levels</option>
-            <option value="Y_F_A_P">Advanced Practioners</option>
-            <option value="K_Y_C_M_L">Kids</option>
+           <!-- <option value="Y_F_A_P">Advanced Practioners</option>
+            <option value="K_Y_C_M_L">Kids</option> -->
             <option value="Y_I_C">Yoga Instructors Course (YIC)</option>
             <option value="OTHERS">Other Services</option>
         </select>
@@ -22,12 +22,12 @@
                 <div class="card">
                     <div class="container center">
 
-                        <p>We offer <b>FREE </b> first class for those who register
+                        <p>Our Beginner Online Classes are <b> FREE </b> with optional donation
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2qLHZ9QpRD5LlBjDCo4ITWtSPA8b9XB8Sm_7QKfDuydMI_w/viewform"
                                 target="_blank" class="register-btn">Register Here</a>
                         </p>
 
-                        <p style="color:red">Please call us for more details of Suspended classes.</p>
+                       <!-- <p style="color:red">Please call us for more details of Suspended classes.</p> -->
 
                     </div>
                 </div>
@@ -45,31 +45,31 @@
                         <table class="yal">
                             <tr>
                                 <th>Monday</th>
-                                <th>9:45 A.M - 11:15 A.M</th>
+                                <th>10:00 - 11:30 am; 06:00 - 07:30 pm</th>
                             </tr>
                             <tr>
                                 <th>Tuesday</th>
-                                <th>NO CLASS ( Suspended )</th>
+                                <th>06:00 - 07:00 am</th>
                             </tr>
                             <tr>
                                 <th>Wednesday</th>
-                                <th>9:45 A.M - 11:15 A.M</th>
+                                <th>10:00 - 11:30 am</th>
                             </tr>
                             <tr>
                                 <th>Thursday</th>
-                                <th>7:00 P.M- 8:30 P.M</th>
+                                <th>06:00 - 07:00 am; 06:00 - 07:00 pm</th>
                             </tr>
                             <tr>
                                 <th>Friday</th>
-                                <th>9:45 A.M - 11:15 A.M</th>
+                                <th>10:00 - 11:30 am;  06:00 - 07:30 pm</th>
                             </tr>
                             <tr>
                                 <th>Saturday</th>
-                                <th>8:00 A.M- 9:30 A.M</th>
+                                <th>08:00 - 9:30 am</th>
                             </tr>
                             <tr>
                                 <th>Sunday</th>
-                                <th>8:00 A.M- 9:30 A.M</th>
+                                <th>08:00 - 9:30 am</th>
                             </tr>
 
                         </table>
@@ -250,13 +250,37 @@
 
 
 
-    <div class="paypalBlock" *ngIf="selectedService==='Y_A_L' 
+   <!-- <div class="paypalBlock" *ngIf="selectedService==='Y_A_L' -->
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L'   
     || selectedService==='Y_F_A_P'
     || selectedService==='K_Y_C_M_L'
     || selectedService==='K_Y_C_4_L'
     ">
 
-        <app-payme></app-payme>
+       <!-- <app-payme></app-payme> -->
+       <!-- <p>Paypal Donation Link
+        <a href="https://www.paypal.com/us/fundraiser/charity/3728362"
+            target="_blank" class="register-btn">Donate</a>
+       </p> -->
+
+       <div class="column  mt4 card-single">
+        <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+            <div class="card">
+                <div class="container center">
+
+                    <p>Paypal Donation Link
+                        <a href="https://www.paypal.com/us/fundraiser/charity/3728362"
+                            target="_blank" class="donate-btn">Donate</a> <br> <br>
+                            <b>Zelle:</b> vivekananda.yoga.sd@gmail.com
+                    </p>
+
+                   <!-- <p style="color:red">Please call us for more details of Suspended classes.</p> -->
+
+                </div>
+            </div>
+        </a>
+
+        </div>
 
     </div>
 

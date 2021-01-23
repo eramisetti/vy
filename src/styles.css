@@ -120,6 +120,16 @@
     margin-left: 1%;
 }
 
+.donate-btn {
+    padding: 0.5rem 1rem;
+    background-color: #ffae00;
+    border-radius: .25rem;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none !important;
+    margin-left: 1%;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     /* background-color: #006972 !important; */
