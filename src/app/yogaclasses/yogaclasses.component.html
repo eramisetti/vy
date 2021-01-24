@@ -15,7 +15,9 @@
     <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L' || 
                                   selectedService==='Y_F_A_P' || 
                                   selectedService==='K_Y_C_M_L' || 
-                                  selectedService==='K_Y_C_4_L'">
+                                  selectedService==='K_Y_C_4_L' ||
+                                  selectedService===''
+                                  ">
 
         <div class="column  mt4 card-single">
             <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
@@ -36,7 +38,8 @@
         </div>
     </div>
 
-    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L'">
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L' ||
+                                  selectedService===''">
         <div class="column  mt4 card-single">
             <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
                 <div class="card">
@@ -255,6 +258,7 @@
     || selectedService==='Y_F_A_P'
     || selectedService==='K_Y_C_M_L'
     || selectedService==='K_Y_C_4_L'
+    || selectedService===''
     ">
 
        <!-- <app-payme></app-payme> -->
