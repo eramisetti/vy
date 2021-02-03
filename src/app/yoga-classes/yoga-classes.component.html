@@ -1,0 +1,302 @@
+
+<app-header></app-header>
+
+<div class="body-box">
+    <div class="services-dropdown">
+        <select  [(ngModel)]="selectedService">
+            <option value="">--- Please Select Yoga Class ---</option>
+            <option value="Y_A_L">All levels</option>
+           <!-- <option value="Y_F_A_P">Advanced Practioners</option>
+            <option value="K_Y_C_M_L">Kids</option> -->
+            <option value="Y_I_C">Yoga Instructors Course (YIC)</option>
+            <option value="OTHERS">Other Services</option>
+        </select>
+    </div>
+
+
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L' || 
+                                  selectedService==='Y_F_A_P' || 
+                                  selectedService==='K_Y_C_M_L' || 
+                                  selectedService==='K_Y_C_4_L' ||
+                                  selectedService===''
+                                  ">
+
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container center">
+
+                        <p>Our Beginner Online Classes are <b> FREE </b> with optional donation
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2qLHZ9QpRD5LlBjDCo4ITWtSPA8b9XB8Sm_7QKfDuydMI_w/viewform"
+                                target="_blank" class="register-btn">Register Here</a>
+                        </p>
+
+                       <!-- <p style="color:red">Please call us for more details of Suspended classes.</p> -->
+
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L' ||
+                                  selectedService===''">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+
+                        <table class="yal">
+                            <tr>
+                                <th>Monday</th>
+                                <th>10:00 - 11:30 am; 06:00 - 07:30 pm</th>
+                            </tr>
+                            <tr>
+                                <th>Tuesday</th>
+                                <th>06:00 - 07:00 am</th>
+                            </tr>
+                            <tr>
+                                <th>Wednesday</th>
+                                <th>10:00 - 11:30 am</th>
+                            </tr>
+                            <tr>
+                                <th>Thursday</th>
+                                <th>06:00 - 07:00 am; 06:00 - 07:00 pm</th>
+                            </tr>
+                            <tr>
+                                <th>Friday</th>
+                                <th>10:00 - 11:30 am;  06:00 - 07:30 pm</th>
+                            </tr>
+                            <tr>
+                                <th>Saturday</th>
+                                <th>08:00 - 9:30 am</th>
+                            </tr>
+                            <tr>
+                                <th>Sunday</th>
+                                <th>08:00 - 9:30 am</th>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_F_A_P'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        
+                        <table class="yal">
+                            <tbody>
+                                <tr>
+                                    <th>Saturday</th>
+                                    <th>6:00 A.M- 7:30 A.M ( Suspended ) </th>
+                                </tr>
+                                <tr>
+                                    <th>Sunday</th>
+                                    <th>6:00 A.M- 7:30 A.M ( Suspended )</th>
+                                </tr>
+
+                                <tr>
+                                    <th>More Details</th>
+                                    <th>
+                                        <a href="/assets/pdfs/Advanced_yoga.pdf" target="_blank"><u>Click
+                                                Here</u>
+                                        </a>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='K_Y_C_M_L'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container">
+                        <table class="yal">
+                            <tbody>
+                                <tr>
+                                    <th>Sunday</th>
+                                    <th>9:45 A.M- 11:00 A.M</th>
+                                    <th>MiraMar Localtion ( Suspended ) </th>
+                                </tr>
+                                <tr>
+                                    <th>Thursday</th>
+                                    <th>3:00 P.M - 4:00 P.M</th>
+                                    <th>4s Ranch Localtion ( Suspended )</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='OTHERS'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="tile-title">Personal Training</div>
+                    <div class="container">
+                        <p>
+                            Your yoga practice is most effective when it’s designed for your personal needs by a highly
+                            trained and experienced yoga professional.
+                            Our lead trainer with his wealth of experience, knowledge and skills tempered with an
+                            attitude of compassion can design a perfect session for your body, mind and soul.
+                            Healing takes place from with in. We can design a yoga program to inspire, enthuse and
+                            encourage you to take charge of your body and mind adopt a healthy lifestyle.
+                            Private yoga sessions are great for beginners, those with specific concerns or anyone who
+                            prefers individualized or family instruction.
+                            Please contact us for more details.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='OTHERS'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="tile-title">Corporate Employee Wellness</div>
+                    <div class="container">
+                        <p>Successful organisations know that a healthy and happy employee is also a highly productive
+                            employee.
+                            Yoga and Mindfulness make huge difference and positively impact on the physical, mental and
+                            social well being of the employees.
+                            It transforms the organisational environment into a vibrant, harmonious, enthusiastic and
+                            highly productive company.
+                            We at Vivekananda Yoga have a rich experience in employee wellness programs.
+                            1. To employee wellness programs you can Host Yoga Classes or Work shops at your work place.
+                            We will be glad to design and conduct them at your workplace.
+                            2. Offer Vivekananda Yoga Classes to your employees at a discount. We will be glad to work
+                            with you on designing a program.
+                            Please contact us for more details.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='OTHERS'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="tile-title">Workshops to manage Lifestyle Diseases</div>
+                    <div class="container">
+                        <p>Prevention, management and cure of psychosomatic diseases like type 2 diabetes, hypertension,
+                            arthritis, digestive disorders etc. Workshops in these areas are offered on regular basis.
+                            Check the home page for Schedule.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='OTHERS'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="tile-title">Stress Management</div>
+                    <div class="container">
+                        <p>Stress Management workshops are offered on a regular basis Check the home page for Schedule.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='OTHERS'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="tile-title">ISPE program / OCIS-PE</div>
+                    <div class="container">
+                        <p>ISPE program as approved by San Dieguito School District for middle and high school students
+                            OCIS-PE program as approved by Poway Unified School District.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_I_C'">
+        <div class="column  mt4 card-single">
+            <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+                <div class="card">
+                    <div class="container padding-2">
+                        <p>200 Hrs Yoga Instructors Course offered on a regular basis. We are RYS 200 and registered
+                            with Yoga Alliance. Please contact us for more details.<br>
+                        </p>
+                        <div class="center">
+                            <a [routerLink]="['../ytt']" class="register-btn basic-margin">Yoga Teacher Training</a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+   <!-- <div class="paypalBlock" *ngIf="selectedService==='Y_A_L' -->
+    <div class="W-t-M-L-D" *ngIf="selectedService==='Y_A_L'   
+    || selectedService==='Y_F_A_P'
+    || selectedService==='K_Y_C_M_L'
+    || selectedService==='K_Y_C_4_L'
+    || selectedService===''
+    ">
+
+       <!-- <app-payme></app-payme> -->
+       <!-- <p>Paypal Donation Link
+        <a href="https://www.paypal.com/us/fundraiser/charity/3728362"
+            target="_blank" class="register-btn">Donate</a>
+       </p> -->
+
+       <div class="column  mt4 card-single">
+        <a class="dib link bw1 b--solid b--dark-blue dark-blue fw9 pa3 br3 hover-white hover-bg-dark-blue">
+            <div class="card">
+                <div class="container center">
+
+                    <p>Paypal Donation Link
+                        <a href="https://www.paypal.com/us/fundraiser/charity/3728362"
+                            target="_blank" class="donate-btn">Donate</a> <br> <br>
+                            <b>Zelle:</b> vivekananda.yoga.sd@gmail.com
+                    </p>
+
+                   <!-- <p style="color:red">Please call us for more details of Suspended classes.</p> -->
+
+                </div>
+            </div>
+        </a>
+
+        </div>
+
+    </div>
+
+    <!-- <div id="calendar"></div> -->
+
+
+</div>
+
+<app-footer></app-footer>

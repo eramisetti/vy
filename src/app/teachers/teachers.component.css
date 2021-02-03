@@ -1,0 +1,30 @@
+.teachers-img {
+    max-height: 65%;
+    margin-top: 3%;
+    max-width: 100%;
+}
+
+.margin-2 {
+    margin: 2%;
+}
+
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subha-teacher {
+    margin-top: 19%;
+}
+.rashmi-teacher {
+    margin-top: 19%;
+}
+
+.mithun-teacher {
+    margin-top: 20%;
+}
+
+.teachers-left {
+    margin-left: 5%;
+}
