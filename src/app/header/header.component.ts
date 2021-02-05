@@ -47,11 +47,11 @@ export class HeaderComponent implements OnInit {
             icon:'pi pi-fw pi-info',
             routerLink: '/aboutus'
           },
-        //   {
-        //     label:'Program',
-        //     icon:'pi pi-fw pi-star',
-        //     routerLink: '/program'
-        //   }
+          {
+            label:'Special Programs',
+            icon:'pi pi-fw pi-star vy-color-i',
+            routerLink: '/special-program'
+          }
       ];
   }
 

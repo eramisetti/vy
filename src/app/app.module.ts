@@ -20,7 +20,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { ProgramComponent } from './program/program.component';
-import { LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
     declarations: [
@@ -46,7 +46,7 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
         ButtonModule,
         MenubarModule
     ],
-    providers: [{provide: LocationStrategy, useClass: PathLocationStrategy}],
+    providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

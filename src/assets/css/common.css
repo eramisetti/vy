@@ -1065,6 +1065,9 @@ ul.social-icons-footer li a {
     .dropdown-menu::before {
         content: none;
     }
+    .pi {
+        font-size: 2rem !important;
+    }
 }
 
 /* ==================================================================================================

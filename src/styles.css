@@ -238,3 +238,7 @@
     width: 100%;
     text-align: left !important;
 }
+
+.vy-color-i {
+    color: rgb(219, 128, 42) !important;
+}

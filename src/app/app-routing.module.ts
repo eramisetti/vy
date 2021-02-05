@@ -17,11 +17,11 @@ const routes: Routes = [
   { path: 'teachers', component: TeachersComponent},
   { path: 'gallery', component: GalleryComponent},
   { path: 'aboutus', component: AboutUsComponent},
-  { path: 'program', component: ProgramComponent}
+  { path: 'special-program', component: ProgramComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
