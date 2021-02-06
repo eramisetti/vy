@@ -48,9 +48,9 @@ export class HeaderComponent implements OnInit {
             routerLink: '/aboutus'
           },
           {
-            label:'Special Programs',
+            label:'DPM 2021',
             icon:'pi pi-fw pi-star vy-color-i',
-            routerLink: '/special-program'
+            routerLink: '/dpm2021'
           }
       ];
   }

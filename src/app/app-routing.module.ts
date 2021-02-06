@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'teachers', component: TeachersComponent},
   { path: 'gallery', component: GalleryComponent},
   { path: 'aboutus', component: AboutUsComponent},
-  { path: 'special-program', component: ProgramComponent}
+  { path: 'dpm2021', component: ProgramComponent}
 ];
 
 @NgModule({
