@@ -21,6 +21,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { ProgramComponent } from './program/program.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { YogaLibraryComponent } from './yoga-library/yoga-library.component';
 
 @NgModule({
     declarations: [
@@ -33,7 +34,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
         GalleryComponent,
         AboutUsComponent,
         TeachersComponent,
-        ProgramComponent
+        ProgramComponent,
+        YogaLibraryComponent
     ],
     imports: [
         BrowserModule,

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ProgramComponent } from './program/program.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { YogaClassesComponent } from './yoga-classes/yoga-classes.component';
+import { YogaLibraryComponent } from './yoga-library/yoga-library.component';
 import { YogaTeacherTrainingComponent } from './yoga-teacher-training/yoga-teacher-training.component';
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'teachers', component: TeachersComponent},
   { path: 'gallery', component: GalleryComponent},
   { path: 'aboutus', component: AboutUsComponent},
-  { path: 'dpm2021', component: ProgramComponent}
+  { path: 'dpm2021', component: ProgramComponent},
+  { path: 'library', component: YogaLibraryComponent}
 ];
 
 @NgModule({

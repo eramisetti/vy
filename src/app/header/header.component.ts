@@ -51,6 +51,11 @@ export class HeaderComponent implements OnInit {
             label:'DPM 2021',
             icon:'pi pi-fw pi-star vy-color-i',
             routerLink: '/dpm2021'
+          },
+          {
+            label:'Yoga Library',
+            icon:'pi pi-fw pi-file-o',
+            routerLink: '/library'
           }
       ];
   }
