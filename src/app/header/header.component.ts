@@ -53,7 +53,7 @@ export class HeaderComponent implements OnInit {
             routerLink: '/dpm2021'
           },
           {
-            label:'Yoga Library',
+            label:'Past Workshops',
             icon:'pi pi-fw pi-file-o',
             routerLink: '/library'
           }
