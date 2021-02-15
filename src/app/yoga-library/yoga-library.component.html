@@ -2,204 +2,37 @@
 
 
 <div class="what-we-do-block card">
-  <div class="card-body"> Vivekanada Yoga has been conducting Workshops and Programs to promote healthy lifestyle based on Yogic Principles. <br> Our Yoga workshops cover wide range of topics and are well attended. Some of the topics are listed below</div>
+  <div class="card-body"> Vivekanada Yoga has been conducting Workshops and Programs to promote healthy lifestyle based on Yogic Principles. <br> Our Yoga workshops cover wide range of topics and are well attended. Some of the topics are listed below,
+    please <b>click</b> on the program to see the detail of each program.</div>
 </div>
 
 <div id="accordion" class="margin1">
 
-    <!-- 2021 Diabetes Program : copy this block, and changel all h1 to h2 and b1 to b2.. -->
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            02/20/2021  Stop Diabetes Saptaah
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">YOGA FOR PREVENTION AND MANAGEMENT OF TYPE 2 DIABETES - FREE ONLINE SESSIONS</div>
 
-            <div class="inc-details">
-                <a href="/assets/img/VY_DPM2021.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <a href="/assets/img/dpm2021.pdf" target="_blank" class="register-btn">More Details</a><br><br>
-                <a href="https://www.youtube.com/channel/UCMNmjhiOD_gUzQtChMihGOA" target="_blank" class="register-btn">YouTube Link</a>
+    <div *ngFor="let program of programs">
+        <div class="card margin1">
+          <div class="card-header" id="{{'h1'+program.id}}">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" attr.data-target="#{{'b1'+program.id}}" aria-expanded="true" attr.aria-controls="{{'h1'+program.id}}">
+                {{program.date}}  {{program.title}}
+              </button>
+            </h5>
+          </div>
+      
+          <div id="{{'b1'+program.id}}" class="collapse" attr.aria-labelledby="{{'h1'+program.id}}" data-parent="#accordion">
+            <div class="card-body">
+                <div class="center">{{program.description}}</div>
+    
+                <div class="inc-details" *ngFor="let control of program.controls">
+                  <a href="{{control.buttonLink}}" target="_blank" class="register-btn">{{control.buttonText}}</a> <br>
+                </div>
+    
             </div>
-
+          </div>
         </div>
-      </div>
     </div>
 
-    <!-- 2021 Programs -->
-        
-  
-    <!-- 2020 Programs -->
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            Dec 5, 6, 2020  Free Workshop - Yoga for Women's Health
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">FREE YOGA WORKSHOP FOCUSED ON WOMEN's HEALTH</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/Womens_Health.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <a href="/assets/img/2020/Womens_Yoga.pdf" target="_blank" class="register-btn">More Details</a> <br><br>
-                <a href="https://youtube.com/playlist?list=PLecyn3vebT9QSGkEXzb-lQw63SAe2em3Z" target="_blank" class="register-btn">YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            Oct 10, 11, 2020  Free Workshop - Yoga for Seniors
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">FREE YOGA WORKSHOP FOCUSED ON SENIORS HEALTH</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/Yoga_For_Seniors.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <a href="/assets/img/2020/yoga_seniors.pdf" target="_blank" class="register-btn">More Details</a> <br><br>
-                <a href="https://youtube.com/playlist?list=PLecyn3vebT9TiRiUShoBNLxXkOxj3Ul5n" target="_blank" class="register-btn">YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            October 2020 Yoga Teacher Training
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">YOGA TEACHER TRAINING</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/YTT_Oct_2020.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <a href="/assets/img/2020/ytt_2020.pdf" target="_blank" class="register-btn">More Details</a> <br><br>
-                <a href="https://youtu.be/GpGDNudK7t0" target="_blank" class="register-btn">Webinar YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            Sept 12 2020 Free Stress Management Workshop
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">FREE YOGA WORKSHOP FOR STRESS MANAGEMENT</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/Stress_Mgmt2020.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <!-- <a href="/assets/img/2020/.pdf" target="_blank" class="register-btn">More Details</a> <br><br> -->
-                <a href="https://youtu.be/LaJPTPsH3qY" target="_blank" class="register-btn">YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            Sept 12 2020 Free Stress Management Workshop
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">FREE YOGA WORKSHOP FOR STRESS MANAGEMENT</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/Stress_Mgmt2020.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <!-- <a href="/assets/img/2020/.pdf" target="_blank" class="register-btn">More Details</a> <br><br> -->
-                <a href="https://youtu.be/LaJPTPsH3qY" target="_blank" class="register-btn">YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            August 2020 Free Yoga Workshop for Back Pain and Arthritis
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">FREE YOGA WORKSHOP BACK PAIN AND ARTHRITIS PREVENTION AND MANAGEMENT</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/back_arthritis.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <!-- <a href="/assets/img/2020/.pdf" target="_blank" class="register-btn">More Details</a> <br><br> -->
-                <a href="https://youtube.com/playlist?list=PLecyn3vebT9SmVbaNWSN51YigKZGiqRM3" target="_blank" class="register-btn">YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="card margin1">
-      <div class="card-header" id="h1">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#b1" aria-expanded="true" aria-controls="b1">
-            May 2020 Yoga Teacher Training
-          </button>
-        </h5>
-      </div>
-  
-      <div id="b1" class="collapse" aria-labelledby="h1" data-parent="#accordion">
-        <div class="card-body">
-            <div class="center">YOGA TEACHER TRAINING</div>
-
-            <div class="inc-details">
-                <a href="/assets/img/2020/YTT_2020.jpg" target="_blank" class="register-btn">Flyer</a> <br><br>
-                <a href="/assets/img/2020/ytt_2020_May.pdf" target="_blank" class="register-btn">More Details</a> <br><br>
-                <a href="https://youtu.be/RrlT1G_Rias" target="_blank" class="register-btn">Webinar YouTube Link</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-
-
-
+   
 </div>
 
 <app-footer></app-footer>
