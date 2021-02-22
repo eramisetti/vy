@@ -7,15 +7,18 @@
     "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/VY_DPM2021.jpg"
+                "buttonLink": "/assets/img/VY_DPM2021.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "More Details",
-                "buttonLink": "/assets/img/dpm2021.pdf"
+                "buttonLink": "/assets/img/dpm2021.pdf",
+                "isHref":true
             },
             {
                 "buttonText": "YouTube",
-                "buttonLink": "https://www.youtube.com/channel/UCMNmjhiOD_gUzQtChMihGOA"
+                "buttonLink": "https://www.youtube.com/channel/UCMNmjhiOD_gUzQtChMihGOA",
+                "isHref":true
             }
         ]
     },
@@ -27,15 +30,18 @@
         "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/2020/Womens_Health.jpg"
+                "buttonLink": "/assets/img/2020/Womens_Health.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "More Details",
-                "buttonLink": "/assets/img/2020/Womens_Yoga.pdf"
+                "buttonLink": "/assets/img/2020/Womens_Yoga.pdf",
+                "isHref":true
             },
             {
                 "buttonText": "YouTube",
-                "buttonLink": "https://youtube.com/playlist?list=PLecyn3vebT9QSGkEXzb-lQw63SAe2em3Z"
+                "buttonLink": "https://youtube.com/playlist?list=PLecyn3vebT9QSGkEXzb-lQw63SAe2em3Z",
+                "isHref":true
             }
          ]
     },
@@ -47,15 +53,18 @@
         "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/2020/Yoga_For_Seniors.jpg"
+                "buttonLink": "/assets/img/2020/Yoga_For_Seniors.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "More Details",
-                "buttonLink": "/assets/img/2020/yoga_seniors.pdf"
+                "buttonLink": "/assets/img/2020/yoga_seniors.pdf",
+                "isHref":true
             },
             {
                 "buttonText": "YouTube",
-                "buttonLink": "https://youtube.com/playlist?list=PLecyn3vebT9TiRiUShoBNLxXkOxj3Ul5n"
+                "buttonLink": "https://youtube.com/playlist?list=PLecyn3vebT9TiRiUShoBNLxXkOxj3Ul5n",
+                "isHref":true
             }
          ]
     },
@@ -67,15 +76,18 @@
         "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/2020/YTT_Oct_2020.jpg"
+                "buttonLink": "/assets/img/2020/YTT_Oct_2020.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "More Details",
-                "buttonLink": "/assets/img/2020/ytt_2020.pdf"
+                "buttonLink": "/assets/img/2020/ytt_2020.pdf",
+                "isHref":true
             },
             {
                 "buttonText": "Webinar YouTube Link",
-                "buttonLink": "https://youtu.be/GpGDNudK7t0"
+                "buttonLink": "https://youtu.be/GpGDNudK7t0",
+                "isHref":true
             }
          ]
     },
@@ -87,11 +99,13 @@
         "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/2020/Stress_Mgmt2020.jpg"
+                "buttonLink": "/assets/img/2020/Stress_Mgmt2020.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "YouTube Link",
-                "buttonLink": "https://youtu.be/LaJPTPsH3qY"
+                "buttonLink": "https://youtu.be/LaJPTPsH3qY",
+                "isHref":true
             }
          ]
     },
@@ -103,11 +117,13 @@
         "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/2020/back_arthritis.jpg"
+                "buttonLink": "/assets/img/2020/back_arthritis.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "YouTube Link",
-                "buttonLink": "https://youtube.com/playlist?list=PLecyn3vebT9SmVbaNWSN51YigKZGiqRM3"
+                "buttonLink": "https://youtube.com/playlist?list=PLecyn3vebT9SmVbaNWSN51YigKZGiqRM3",
+                "isHref":true
             }
          ]
     },
@@ -119,15 +135,18 @@
         "controls": [
             {
                 "buttonText": "Flyer",
-                "buttonLink": "/assets/img/2020/YTT_2020.jpg"
+                "buttonLink": "/assets/img/2020/YTT_2020.jpg",
+                "isHref":true
             },
             {
                 "buttonText": "More Details",
-                "buttonLink": "/assets/img/2020/ytt_2020_May.pdf"
+                "buttonLink": "/assets/img/2020/ytt_2020_May.pdf",
+                "isHref":true
             },
             {
                 "buttonText": "Webinar YouTube Link",
-                "buttonLink": "https://youtu.be/RrlT1G_Rias"
+                "buttonLink": "https://youtu.be/RrlT1G_Rias",
+                "isHref":true
             }
          ]
     }

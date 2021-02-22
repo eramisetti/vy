@@ -23,8 +23,8 @@
             <div class="card-body">
                 <div class="center">{{program.description}}</div>
     
-                <div class="inc-details" *ngFor="let control of program.controls">
-                  <a href="{{control.buttonLink}}" target="_blank" class="register-btn">{{control.buttonText}}</a> <br>
+                <div class="inc-details margin-phone" *ngFor="let control of program.controls">
+                  <a *ngIf="control.isHref" href="{{control.buttonLink}}" target="_blank" class="register-btn">{{control.buttonText}}</a> <br>
                 </div>
     
             </div>

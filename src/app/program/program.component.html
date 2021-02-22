@@ -5,26 +5,24 @@
 
 
     <div class="what-we-do-block card">
-        <div class="tile-title"> YOGA FOR PREVENTION AND MANAGEMENT OF TYPE 2 DIABETES - FREE ONLINE SESSIONS
-        </div>
-       <!-- <div class="card-body">
-
-            Learn some beginner level yoga sequences and life style changes to help with Prevention and Management of Type 2 Diabetes
-
-        </div> -->
-    </div>
-    <!-- Registration Link-->
-    <div class="inc-details">
-        <a href="https://forms.gle/Xwsqzg1xTzhJMhJn6" target="_blank" class="register-btn">Register Here</a>
-        <a href="/assets/img/dpm2021.pdf" target="_blank" class="register-btn">More Details</a>
-    </div>
-
+        <div class="tile-title"> {{program.title}}</div>
     
-
-    <!-- Any pamplet/any image if we have.-->
-    <div class="inc-details">
-        <img width="700" height="500" src="/assets/img/VY_DPM2021.jpg">
     </div>
+
+    <div *ngFor="let control of program.controls">
+
+        <!-- Registration Link-->
+        <div *ngIf="control.isHref"  class="inc-details  margin-phone">
+            <a href="{{control.buttonLink}}" target="_blank" class="register-btn">{{control.buttonText}}</a>
+        </div>
+
+        <!-- Any pamplet/any image if we have.-->
+        <div *ngIf="control.isImage" class="inc-details ">
+            <img width="700" height="500" src="{{control.buttonLink}}">
+        </div>
+    </div>
+    
+   
 </div>
 
 

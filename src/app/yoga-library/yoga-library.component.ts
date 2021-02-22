@@ -1,21 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { Program } from '../core/domain/Program';
-import { ProgramService } from '../core/services/programs-service';
+import { VYService } from '../core/services/vy-service';
 
 @Component({
   selector: 'app-yoga-library',
   templateUrl: './yoga-library.component.html',
   styleUrls: ['./yoga-library.component.css'],
-  providers: [ProgramService]
+  providers: [VYService]
 })
 export class YogaLibraryComponent implements OnInit {
 
-  programs: Program[];
+  programs: Program[] = [];
 
-  constructor(private programService: ProgramService){}
-  
+  constructor(private vyService: VYService){}
+
   ngOnInit(): void {
-    this.programService.getPastPrograms().then(data => this.programs = data);
+    this.vyService.getPastPrograms().then(data => this.programs = data);
   }
 
 }

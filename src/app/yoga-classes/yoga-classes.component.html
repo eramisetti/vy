@@ -28,7 +28,7 @@
                     <div class="container center">
 
                         <p>Our Beginner Online Classes are <b> FREE </b> 
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2qLHZ9QpRD5LlBjDCo4ITWtSPA8b9XB8Sm_7QKfDuydMI_w/viewform"
+                            <a href="{{yogaClasses.regLink}}"
                                 target="_blank" class="register-btn">Register Here</a>
                         </p>
 
@@ -49,35 +49,11 @@
                     <div class="container">
 
                         <table class="yal">
-                            <tr>
-                                <th>Monday</th>
-                                <th>10:00 - 11:30 am; 06:00 - 07:30 pm</th>
+                            
+                            <tr *ngFor="let timings of yogaClasses.yogaTimings">
+                                <th>{{timings.day}}</th>
+                                <th>{{timings.time}}</th>
                             </tr>
-                            <tr>
-                                <th>Tuesday</th>
-                                <th>06:00 - 07:00 am</th>
-                            </tr>
-                            <tr>
-                                <th>Wednesday</th>
-                                <th>10:00 - 11:30 am</th>
-                            </tr>
-                            <tr>
-                                <th>Thursday</th>
-                                <th>06:00 - 07:00 am; 06:00 - 07:00 pm</th>
-                            </tr>
-                            <tr>
-                                <th>Friday</th>
-                                <th>10:00 - 11:30 am;  06:00 - 07:30 pm</th>
-                            </tr>
-                            <tr>
-                                <th>Saturday</th>
-                                <th>08:00 - 9:30 am</th>
-                            </tr>
-                            <tr>
-                                <th>Sunday</th>
-                                <th>08:00 - 9:30 am</th>
-                            </tr>
-
                         </table>
 
                     </div>

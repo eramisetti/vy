@@ -1,0 +1,37 @@
+{
+    "yogaClasses": [
+        {
+            "regLink": "https://docs.google.com/forms/d/e/1FAIpQLSc2qLHZ9QpRD5LlBjDCo4ITWtSPA8b9XB8Sm_7QKfDuydMI_w/viewform",
+            "yogaTimings": [
+                {
+                    "day": "Monday",
+                    "time": "10:00 - 11:30 am; 06:00 - 07:30 pm"
+                },
+                {
+                    "day": "Tuesday",
+                    "time": "06:00 - 07:00 am"
+                },
+                {
+                    "day": "Wednesday",
+                    "time": "10:00 - 11:30 am"
+                },
+                {
+                    "day": "Thursday",
+                    "time": "06:00 - 07:00 am; 06:00 - 07:00 pm"
+                },
+                {
+                    "day": "Friday",
+                    "time": "10:00 - 11:30 am;  06:00 - 07:30 pm"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "08:00 - 9:30 am"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "08:00 - 9:30 am"
+                }
+            ]
+        }
+    ]
+}

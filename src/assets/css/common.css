@@ -1068,6 +1068,9 @@ ul.social-icons-footer li a {
     .pi {
         font-size: 2rem !important;
     }
+    .margin-phone {
+         margin-bottom: 4%;
+    }
 }
 
 /* ==================================================================================================

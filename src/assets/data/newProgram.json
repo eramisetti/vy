@@ -1,0 +1,24 @@
+{
+  "newProgram": [
+    {
+      "title": "YOGA FOR PREVENTION AND MANAGEMENT OF TYPE 2 DIABETES - FREE ONLINE SESSIONS",
+      "controls": [
+              {
+                  "buttonText": "Register Here",
+                  "buttonLink": "https://forms.gle/Xwsqzg1xTzhJMhJn6",
+                  "isHref":true
+              },
+              {
+                  "buttonText": "More Details",
+                  "buttonLink": "/assets/img/dpm2021.pdf",
+                  "isHref":true
+              },
+              {
+                  "buttonText": "Image",
+                  "buttonLink": "/assets/img/VY_DPM2021.jpg",
+                  "isImage":true
+              }
+          ]
+      }
+  ]
+}

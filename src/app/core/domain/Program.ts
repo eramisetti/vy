@@ -1,9 +1,10 @@
 import { Control } from "./Control";
 
-export interface Program {
+export class Program {
     id: string;
     date: string;
     title: string;
     description: string;
     controls: Control[];
+
 }

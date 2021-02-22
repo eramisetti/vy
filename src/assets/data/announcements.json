@@ -1,0 +1,24 @@
+{
+  "announcements": [
+    {
+      "title": "Free Yoga Workshop for Prevention and Management of Type 2 Diabetes (02/20 - 02/28)",
+      "controls": [
+        {
+            "buttonText": "More Details",
+            "isRouterLink": true,
+            "buttonLink": "../specialProgram"
+        }
+       ]
+    },
+    {
+      "title": "COVID-19 Mitigation/ Online Classes Schedule",
+      "controls": [
+        {
+            "buttonText": "More Details",
+            "isRouterLink": true,
+            "buttonLink": "../classes"
+        }
+       ]
+    }
+  ]
+}
