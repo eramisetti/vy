@@ -1,7 +1,7 @@
 {
   "announcements": [
     {
-      "title": "Free Yoga Workshop for Prevention and Management of Type 2 Diabetes (02/20 - 02/28)",
+      "title": "Free Webinar - Traditional Yoga Immersion Course (200 Hrs) on March 13 @ 11 am (Pacific)",
       "controls": [
         {
             "buttonText": "More Details",
@@ -11,7 +11,17 @@
        ]
     },
     {
-      "title": "COVID-19 Mitigation/ Online Classes Schedule",
+      "title": "Traditional Yoga Immersion Course (200 Hrs)",
+      "controls": [
+        {
+            "buttonText": "More Details",
+            "isRouterLink": true,
+            "buttonLink": "../ytt"
+        }
+       ]
+    },
+    {
+      "title": "Free Online Classes Schedule",
       "controls": [
         {
             "buttonText": "More Details",

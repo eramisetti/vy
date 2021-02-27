@@ -11,7 +11,7 @@
       "routerLink": "/classes"
     },
     {
-      "label": "Yoga Teacher Training",
+      "label": "Yoga Immersion Course",
       "icon": "pi pi-fw pi-calendar",
       "routerLink": "/ytt"
     },
@@ -31,12 +31,12 @@
       "routerLink": "/aboutus"
     },
     {
-      "label": "DPM 2021",
+      "label": "YTT 2021 Webinar",
       "icon": "pi pi-fw pi-star vy-color-i",
       "routerLink": "/specialProgram"
     },
     {
-      "label": "Past Workshops",
+      "label": "Past Workshop",
       "icon": "pi pi-fw pi-file-o",
       "routerLink": "/library"
     }

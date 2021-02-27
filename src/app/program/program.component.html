@@ -16,6 +16,11 @@
             <a href="{{control.buttonLink}}" target="_blank" class="register-btn">{{control.buttonText}}</a>
         </div>
 
+        <!-- Router Link-->
+        <div *ngIf="control.isRouterLink"  class="inc-details  margin-phone">
+            <a *ngIf="control.isRouterLink" [routerLink]="control.buttonLink" class="register-btn">{{control.buttonText}}</a>
+        </div>
+
         <!-- Any pamplet/any image if we have.-->
         <div *ngIf="control.isImage" class="inc-details ">
             <img width="700" height="500" src="{{control.buttonLink}}">

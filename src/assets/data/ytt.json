@@ -1,21 +1,21 @@
 {
   "ytt": [
     {
-      "title": "Yoga Teacher Training (YTT) Summer 2020  Phoenix and San Diego ",
+      "title": "Traditional Yoga Immersion Course (200 Hrs)",
       "controls": [
               {
                   "buttonText": "Register Here",
-                  "buttonLink": "https://forms.gle/ZDpPgFZFTMpRtScS8",
+                  "buttonLink": "https://forms.gle/JErEbWnfMMCZbvud8",
                   "isHref":true
               },
               {
                   "buttonText": "More Details",
-                  "buttonLink": "/assets/img/2020/ytt_2020.pdf",
+                  "buttonLink": "/assets/img/ytt_2021.pdf",
                   "isHref":true
               },
               {
                   "buttonText": "Image",
-                  "buttonLink": "/assets/img/2020/YTT_Oct_2020.jpeg",
+                  "buttonLink": "/assets/img/YTT_2021.jpg",
                   "isImage":true
               }
           ]

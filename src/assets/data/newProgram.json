@@ -1,23 +1,29 @@
 {
   "newProgram": [
     {
-      "title": "YOGA FOR PREVENTION AND MANAGEMENT OF TYPE 2 DIABETES - FREE ONLINE SESSIONS",
+      "title": "Free Webinar - Traditional Yoga Immersion Course (200 Hrs) on March 13 @ 11 am (Pacific)",
       "controls": [
               {
-                  "buttonText": "Register Here",
-                  "buttonLink": "https://forms.gle/Xwsqzg1xTzhJMhJn6",
+                  "buttonText": "Webinar - Register Here",
+                  "buttonLink": "https://forms.gle/NHQ4kWgsm2NG3T1s5",
                   "isHref":true
               },
               {
                   "buttonText": "More Details",
-                  "buttonLink": "/assets/img/dpm2021.pdf",
+                  "buttonLink": "/assets/img/ytt_2021.pdf",
                   "isHref":true
               },
               {
+                "buttonText": "Course Registration Details",
+                "isRouterLink": true,
+                "buttonLink": "../ytt"
+              },
+              {
                   "buttonText": "Image",
-                  "buttonLink": "/assets/img/VY_DPM2021.jpg",
+                  "buttonLink": "/assets/img/YTT_Webinar_2021.jpg",
                   "isImage":true
               }
+              
           ]
       }
   ]
