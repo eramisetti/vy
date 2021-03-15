@@ -9,6 +9,11 @@
                   "isHref":true
               },
               {
+                "buttonText": "Registration Link",
+                "buttonLink": "https://forms.gle/WDCXhcvXXoMCPKPM6",
+                "isHref":true
+              },
+              {
                   "buttonText": "More Details",
                   "buttonLink": "/assets/img/ytt_2021.pdf",
                   "isHref":true
