@@ -1,16 +1,6 @@
 {
   "announcements": [
-    {
-      "title": "Free Webinar - Traditional Yoga Immersion Course (200 Hrs) on March 13 @ 11 am (Pacific)",
-      "controls": [
-        {
-            "buttonText": "More Details",
-            "isRouterLink": true,
-            "buttonLink": "../specialProgram"
-        }
-       ]
-    },
-    {
+      {
       "title": "Traditional Yoga Immersion Course (200 Hrs)",
       "controls": [
         {
