@@ -1,30 +1,19 @@
 {
   "newProgram": [
     {
-      "title": "Free Webinar - Traditional Yoga Immersion Course (200 Hrs) on March 13 @ 11 am (Pacific)",
+      "title": "Free 10 day Beginner Yoga Workshop for Positive Health (Oct 18 - 29)",
       "controls": [
               {
-                  "buttonText": "Webinar Recording",
-                  "buttonLink": "https://youtu.be/xeL2cNkJwGk",
+                  "buttonText": "Flyer & Workshop Description",
+                  "buttonLink": "/assets/img/Yoga_SD_2021.pdf",
                   "isHref":true
               },
               {
-                  "buttonText": "More Details",
-                  "buttonLink": "/assets/img/ytt_2021.pdf",
-                  "isHref":true
-              },
-              {
-                "buttonText": "Course Registration Details",
-                "isRouterLink": true,
-                "buttonLink": "../ytt"
-              },
-              {
-                  "buttonText": "Image",
-                  "buttonLink": "/assets/img/YTT_Webinar_2021.jpg",
-                  "isImage":true
+                "buttonText": "Course Registration Link",
+                "buttonLink": "https://forms.gle/9mYJsmRzRNxCbmDv7",
+				"isHref":true
               }
-              
-          ]
+           ]
       }
   ]
 }

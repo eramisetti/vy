@@ -1,14 +1,13 @@
 {
   "announcements": [
       {
-      "title": "Free 10 day Beginner Yoga Workshop for Positive Health (Oct 18 - 29)",
+      "title": "Traditional Yoga Immersion Course (200 Hrs)",
       "controls": [
         {
             "buttonText": "More Details",
             "isRouterLink": true,
-            "buttonLink": "../specialProgram"
+            "buttonLink": "../ytt"
         }
-		   
        ]
     },
     {
