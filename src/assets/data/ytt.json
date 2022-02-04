@@ -1,26 +1,26 @@
 {
   "ytt": [
     {
-      "title": "Traditional Yoga Immersion Course (200 Hrs)",
+      "title": "Traditional Yoga Immersion Course (200 Hrs) - Spring 2022",
       "controls": [
               {
-                  "buttonText": "Course Webinar Recording",
-                  "buttonLink": "https://youtu.be/xeL2cNkJwGk",
+                  "buttonText": "Free Course Webinar Registration Link",
+                  "buttonLink": "https://forms.gle/5KkpKTkAekEYppKz5",
                   "isHref":true
               },
               {
-                "buttonText": "Registration Link",
-                "buttonLink": "https://forms.gle/WDCXhcvXXoMCPKPM6",
+                "buttonText": "Course Registration Link",
+                "buttonLink": "https://forms.gle/dq4LgFwHXTntGPMD8",
                 "isHref":true
               },
               {
                   "buttonText": "More Details",
-                  "buttonLink": "/assets/img/ytt_2021.pdf",
+                  "buttonLink": "/assets/img/2022/ytt_2022_details.pdf",
                   "isHref":true
               },
               {
                   "buttonText": "Image",
-                  "buttonLink": "/assets/img/YTT_2021.jpg",
+                  "buttonLink": "/assets/img/2022/YTT_2022.jpg",
                   "isImage":true
               }
           ]

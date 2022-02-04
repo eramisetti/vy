@@ -1,17 +1,22 @@
 {
   "newProgram": [
     {
-      "title": "Free 10 day Beginner Yoga Workshop for Positive Health (Oct 18 - 29)",
+      "title": "Free Webinar: Traditional Yoga Immersion Course (YTT 200) Spring 2022",
       "controls": [
               {
-                  "buttonText": "Flyer & Workshop Description",
-                  "buttonLink": "/assets/img/Yoga_SD_2021.pdf",
+                  "buttonText": "Webinar Registration Link",
+                  "buttonLink": "https://forms.gle/5KkpKTkAekEYppKz5",
                   "isHref":true
               },
               {
-                "buttonText": "Course Registration Link",
-                "buttonLink": "https://forms.gle/9mYJsmRzRNxCbmDv7",
-				"isHref":true
+                  "buttonText": "More Details about the Course",
+                  "buttonLink": "/assets/img/2022/ytt_2022_details.pdf",
+                  "isHref":true
+              },
+              {
+                  "buttonText": "Image",
+                  "buttonLink": "/assets/img/2022/YTT_Webinar_2022.jpg",
+                  "isImage":true
               }
            ]
       }

@@ -1,18 +1,17 @@
 {
   "announcements": [
-      {
-      "title": "Free 10 day Beginner Yoga Workshop for Positive Health (Oct 18 - 29)",
+    {
+      "title": " Free Webinar - Traditional Yoga Immersion Course (200 Hrs) - Spring 2022",
       "controls": [
         {
             "buttonText": "More Details",
             "isRouterLink": true,
             "buttonLink": "../specialProgram"
         }
-		   
        ]
     },
     {
-      "title": "Free Online Classes Schedule",
+      "title": "Online Classes Schedule",
       "controls": [
         {
             "buttonText": "More Details",

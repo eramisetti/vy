@@ -31,7 +31,7 @@
       "routerLink": "/aboutus"
     },
     {
-      "label": "Yoga Workshop",
+      "label": "Free Webinar - Yoga Immersion Course",
       "icon": "pi pi-fw pi-star vy-color-i",
       "routerLink": "/specialProgram"
     },
