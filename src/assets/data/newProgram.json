@@ -1,23 +1,19 @@
 {
   "newProgram": [
     {
-      "title": "Free Webinar: Traditional Yoga Immersion Course (YTT 200) Spring 2022",
+      "title": "Yoga Workshop for Stress Management - San Diego (May 2 -6)",
       "controls": [
               {
-                  "buttonText": "Webinar Recording ",
-                  "buttonLink": "https://youtu.be/8SGogrD_xdc",
+                  "buttonText": "Registration Link",
+                  "buttonLink": "https://forms.gle/EsKkBRRnjSFvTnQ3A",
                   "isHref":true
-              },
-              {
-                  "buttonText": "More Details about the Course",
-                  "buttonLink": "/assets/img/2022/ytt_2022_details.pdf",
-                  "isHref":true
-              },
-              {
+              }, 
+		     {
                   "buttonText": "Image",
-                  "buttonLink": "/assets/img/2022/YTT_Webinar_2022.jpg",
+                  "buttonLink": "/assets/img/2022/Stress_Mgmt_SD_2022.jpg",
                   "isImage":true
               }
+              
            ]
       }
   ]
