@@ -1,17 +1,17 @@
 {
   "announcements": [
     {
-      "title": "Yoga Workshop for Stress Management - San Diego (May 2 - 6)",
+      "title": "In Person Classes Starting May 14, 2022 - MPR Hall of SLVTCC - Miramar",
       "controls": [
         {
             "buttonText": "More Details",
             "isRouterLink": true,
-            "buttonLink": "../specialProgram"
+            "buttonLink": "../classes"
         }
        ]
     },
     {
-      "title": "Online Classes Schedule",
+      "title": "Online and In Person Classes Schedule",
       "controls": [
         {
             "buttonText": "More Details",
